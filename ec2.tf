@@ -1,6 +1,6 @@
 
 resource "aws_security_group" "allow-http" {
-  name = "case-study-sg"
+  name = "case-study"
   tags = var.mandate_tags
 }
 
